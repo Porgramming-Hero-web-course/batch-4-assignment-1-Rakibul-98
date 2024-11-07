@@ -12,7 +12,7 @@
         });
         return count;
     }
-    const result = countWordOccurrences("", "");
-    console.log(result); // Expected output: 0
+    const result = countWordOccurrences("I love typescript", "typescript");
+    console.log(result);
     //
 }
